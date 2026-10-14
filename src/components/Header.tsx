@@ -16,7 +16,7 @@ export default function Header() {
     <header className="site-header">
       <div className="topbar page-width">
         <a className="brand" href="#top" aria-label="LogoIpsum home">
-          <span className="brand-mark">✦</span> logoipsum<span className="brand-domain">.com</span>
+          logoipsum<span className="brand-domain">.com</span>
         </a>
         <div className="top-actions">
           <a className="contact-button" href="tel:+910000000000">

@@ -33,7 +33,7 @@ export default function Footer() {
       <div className="footer-main page-width">
         <div className="footer-brand-column">
           <a className="brand" href="#top">
-            <span className="brand-mark">✦</span> logoipsum<span className="brand-domain">.com</span>
+             logoipsum<span className="brand-domain">.com</span>
           </a>
           <p>
             Discover the world with thoughtfully planned journeys and memorable travel experiences.
