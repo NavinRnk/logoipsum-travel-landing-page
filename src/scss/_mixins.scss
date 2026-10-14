@@ -1,0 +1,11 @@
+@mixin page-width {
+  width: min(1120px, calc(100% - 64px));
+  margin-inline: auto;
+}
+
+@mixin small-button {
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font: inherit;
+}

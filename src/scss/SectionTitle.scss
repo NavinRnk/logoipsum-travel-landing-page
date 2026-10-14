@@ -1,0 +1,30 @@
+@use 'variables' as *;
+.section-title {
+  margin-bottom: 28px;
+  text-align: center;
+}
+.section-title h2 {
+  margin: 0 0 8px;
+  font-size: 24px;
+  letter-spacing: -0.5px;
+}
+.section-title p {
+  margin: 0;
+  color: $muted;
+  font-size: 12px;
+  line-height: 1.6;
+}
+.section-title--light h2 {
+  color: #fff;
+}
+.section-title--light p {
+  color: #d4dde4;
+}
+@media (max-width: 650px) {
+  .section-title {
+    margin-bottom: 24px;
+  }
+  .section-title h2 {
+    font-size: 21px;
+  }
+}
